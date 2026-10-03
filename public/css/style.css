@@ -924,15 +924,19 @@ margin-bottom: 2px;
 }
 
 .persona-stat-label {
+display: block;
 color: #fff;
 font-size: 12px;
 font-weight: bold;
 letter-spacing: 0.8px;
+margin-bottom: 4px;
 }
 
 .persona-stat small {
+display: block;
 color: #6b7280;
 font-size: 11px;
+line-height: 1.5;
 }
 
 /* Timeline */

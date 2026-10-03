@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= esc($title ?? 'Resume') ?></title>
-    <link rel="stylesheet" href="<?= base_url('css/resume.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/resume.css?v=' . @filemtime(FCPATH . 'css/resume.css')) ?>">
 </head>
 <body class="resume-body">
     <div class="resume-actions no-print">
