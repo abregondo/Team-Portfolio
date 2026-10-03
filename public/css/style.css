@@ -933,6 +933,7 @@ letter-spacing: 0.8px;
 .persona-stat small {
 color: #6b7280;
 font-size: 11px;
+margin-left: 5px;
 }
 
 /* Timeline */
