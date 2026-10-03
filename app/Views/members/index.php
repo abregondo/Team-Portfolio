@@ -41,10 +41,30 @@
 <section class="persona-stats">
     <div class="container">
         <div class="persona-stats-grid">
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>3</strong><span class="persona-stat-label">Members</span><small>One team</small></div>
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>7+</strong><span class="persona-stat-label">Skills Each</span><small>Diverse</small></div>
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>12+</strong><span class="persona-stat-label">Projects</span><small>Combined</small></div>
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>SPC</strong><span class="persona-stat-label">Proudly</span><small>ST. Peter's</small></div>
+            <?php
+            $profileLinks = [
+                'jazee'  => 'https://github.com/abregondo',
+                'junard' => 'https://github.com/Junard34',
+                'lloyd'  => 'https://github.com/lloydlato',
+            ];
+            foreach ($members as $m):
+                $repoCount = count($m['projects']);
+                $firstTitle = $m['projects'][0]['title'] ?? '';
+                $gh = $profileLinks[$m['slug']] ?? '';
+            ?>
+            <a href="<?= site_url('members/' . $m['slug'] . '#projects') ?>" class="persona-stat" style="text-decoration:none; color:inherit; display:block;">
+                <span class="persona-stat-icon">◆</span>
+                <strong><?= esc((string) $repoCount) ?></strong>
+                <span class="persona-stat-label"><?= esc(explode(' ', $m['name'])[0]) ?>'s Repos</span>
+                <small><?= esc($firstTitle) ?> +<?= max(0, $repoCount - 1) ?> more</small>
+            </a>
+            <?php endforeach; ?>
+            <a href="<?= site_url('project/team-portfolio') ?>" class="persona-stat" style="text-decoration:none; color:inherit; display:block;">
+                <span class="persona-stat-icon">◆</span>
+                <strong>1</strong>
+                <span class="persona-stat-label">Team Build</span>
+                <small>Team-Portfolio on GitHub →</small>
+            </a>
         </div>
     </div>
 </section>
