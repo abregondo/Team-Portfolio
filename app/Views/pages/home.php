@@ -20,7 +20,7 @@
                     </div>
                     <div class="persona-stat" style="padding:14px;">
                         <span class="persona-stat-icon">◆</span>
-                        <strong>10+</strong><span class="persona-stat-label">Projects</span>
+                        <strong>10</strong><span class="persona-stat-label">Projects</span><small>9 personal + 1 team</small>
                     </div>
                     <div class="persona-stat" style="padding:14px;">
                         <span class="persona-stat-icon">◆</span>

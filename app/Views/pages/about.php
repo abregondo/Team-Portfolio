@@ -45,7 +45,7 @@
         <div class="persona-stats-grid">
             <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>3</strong><span class="persona-stat-label"> Members</span><small>  One team</small></div>
             <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>2022</strong><span class="persona-stat-label"> Since</span><small>  Studying IT</small></div>
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>10+</strong><span class="persona-stat-label"> Projects</span><small>  Built together</small></div>
+            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>10</strong><span class="persona-stat-label"> Projects</span><small>  9 personal + 1 team</small></div>
             <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>SPC</strong><span class="persona-stat-label"> College</span><small>  ST. Peter's</small></div>
         </div>
     </div>
