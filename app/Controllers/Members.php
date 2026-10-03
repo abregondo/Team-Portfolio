@@ -39,10 +39,10 @@ class Members extends BaseController
             'phone'       => '09976049076',
             'location'    => 'Philippines',
             'stats'       => [
-                ['value' => '12+', 'label' => 'Projects', 'sub' => 'Completed'],
-                ['value' => '3+', 'label' => 'Years', 'sub' => 'Experience'],
-                ['value' => '7+', 'label' => 'Skills', 'sub' => 'Mastered'],
-                ['value' => '100%', 'label' => 'Dedication', 'sub' => 'Committed'],
+                ['value' => '3', 'label' => 'Personal Projects', 'sub' => 'JK Motorparts + 2 more', 'href' => '#projects'],
+                ['value' => '1', 'label' => 'Team Project', 'sub' => 'Team-Portfolio', 'href' => 'project/team-portfolio'],
+                ['value' => '7', 'label' => 'Skills Listed', 'sub' => 'PHP · MySQL + 5 more', 'href' => '#background'],
+                ['value' => 'GH', 'label' => 'View Code', 'sub' => 'abregondo on GitHub →', 'href' => 'https://github.com/abregondo'],
             ],
             'services'    => [
                 ['icon' => '⚙', 'title' => 'Backend Development', 'desc' => 'Building robust systems with PHP, MySQL and CodeIgniter.'],
@@ -87,10 +87,10 @@ class Members extends BaseController
             'phone'       => '09853216099',
             'location'    => 'Philippines',
             'stats'       => [
-                ['value' => '15+', 'label' => 'UI Designs', 'sub' => 'Crafted'],
-                ['value' => '10+', 'label' => 'Projects', 'sub' => 'Delivered'],
-                ['value' => '6+', 'label' => 'Skills', 'sub' => 'Mastered'],
-                ['value' => '100%', 'label' => 'Creativity', 'sub' => 'Driven'],
+                ['value' => '3', 'label' => 'Personal Projects', 'sub' => 'Movie List App + 2 more', 'href' => '#projects'],
+                ['value' => '1', 'label' => 'Team Project', 'sub' => 'Team-Portfolio', 'href' => 'project/team-portfolio'],
+                ['value' => '6', 'label' => 'Skills Listed', 'sub' => 'UI Design · JS + 4 more', 'href' => '#background'],
+                ['value' => 'GH', 'label' => 'View Code', 'sub' => 'Junard34 on GitHub →', 'href' => 'https://github.com/Junard34'],
             ],
             'services'    => [
                 ['icon' => '✦', 'title' => 'UI Design', 'desc' => 'Clean, modern interfaces focused on user experience.'],
@@ -135,10 +135,10 @@ class Members extends BaseController
             'phone'       => '+63 912 345 6789',
             'location'    => 'Philippines',
             'stats'       => [
-                ['value' => '20+', 'label' => 'Figma Files', 'sub' => 'Designed'],
-                ['value' => '12+', 'label' => 'Projects', 'sub' => 'Built'],
-                ['value' => '6+', 'label' => 'Skills', 'sub' => 'Mastered'],
-                ['value' => '100%', 'label' => 'Pixel Perfect', 'sub' => 'Quality'],
+                ['value' => '3', 'label' => 'Personal Projects', 'sub' => 'Lloyd Portfolio + 2 more', 'href' => '#projects'],
+                ['value' => '1', 'label' => 'Team Project', 'sub' => 'Team-Portfolio', 'href' => 'project/team-portfolio'],
+                ['value' => '6', 'label' => 'Skills Listed', 'sub' => 'Figma · UI + 4 more', 'href' => '#background'],
+                ['value' => 'GH', 'label' => 'View Code', 'sub' => 'lloydlato on GitHub →', 'href' => 'https://github.com/lloydlato'],
             ],
             'services'    => [
                 ['icon' => '⬢', 'title' => 'Figma Design', 'desc' => 'High-fidelity systems and design libraries in Figma.'],

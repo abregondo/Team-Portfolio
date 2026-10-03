@@ -65,24 +65,40 @@
         </div>
     </section>
 
-    <!-- STATS - like 459K 300+ row -->
+    <!-- STATS - specific per member, each card links to real project/code -->
     <section class="persona-stats">
         <div class="container">
             <div class="persona-stats-grid">
                 <?php foreach ($member['stats'] as $st): ?>
+                <?php
+                    $href = $st['href'] ?? '';
+                    if ($href !== '' && ! str_starts_with($href, 'http') && ! str_starts_with($href, '#')) {
+                        $href = site_url(ltrim($href, '/'));
+                    }
+                    $isExternal = $href !== '' && str_starts_with($href, 'http');
+                ?>
+                <?php if ($href !== ''): ?>
+                <a href="<?= esc($href, 'attr') ?>" <?= $isExternal ? 'target="_blank" rel="noopener"' : '' ?> class="persona-stat" style="text-decoration:none; color:inherit; display:block;">
+                    <span class="persona-stat-icon">◆</span>
+                    <strong><?= esc($st['value']) ?></strong>
+                    <span class="persona-stat-label"><?= esc($st['label']) ?></span>
+                    <small><?= esc($st['sub']) ?></small>
+                </a>
+                <?php else: ?>
                 <div class="persona-stat">
                     <span class="persona-stat-icon">◆</span>
                     <strong><?= esc($st['value']) ?></strong>
                     <span class="persona-stat-label"><?= esc($st['label']) ?></span>
                     <small><?= esc($st['sub']) ?></small>
                 </div>
+                <?php endif; ?>
                 <?php endforeach; ?>
             </div>
         </div>
     </section>
 
     <!-- EXPERIENCE & EDUCATION - dark timeline -->
-    <section class="persona-timeline-section">
+    <section class="persona-timeline-section" id="background">
         <div class="container">
             <div class="persona-two-col">
                 <div>
@@ -128,7 +144,7 @@
     </section>
 
     <!-- PROJECTS / VIDEOS - like inspo Videos -->
-    <section class="persona-videos">
+    <section class="persona-videos" id="projects">
         <div class="container">
             <div class="persona-section-head">
                 <div>
