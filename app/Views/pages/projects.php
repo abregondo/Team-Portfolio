@@ -46,9 +46,9 @@
 <section class="persona-stats">
     <div class="container">
         <div class="persona-stats-grid">
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>9</strong><span class="persona-stat-label">Projects</span><small>Total</small></div>
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>3</strong><span class="persona-stat-label">Owners</span><small>Per member</small></div>
-            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>2025</strong><span class="persona-stat-label">Latest</span><small>Updated</small></div>
+            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>1</strong><span class="persona-stat-label">Team Project</span><small>Featured</small></div>
+            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>3</strong><span class="persona-stat-label">Members</span><small>One team</small></div>
+            <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>2026</strong><span class="persona-stat-label">Latest</span><small>Updated</small></div>
             <div class="persona-stat"><span class="persona-stat-icon">◆</span><strong>∞</strong><span class="persona-stat-label">Ideas</span><small>To come</small></div>
         </div>
     </div>
