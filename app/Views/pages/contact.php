@@ -16,10 +16,10 @@
 <section class="persona-services" style="padding:40px 0;">
     <div class="container">
         <div class="persona-services-grid">
-            <div class="persona-service-card active" style="text-align:center;">
+            <div class="persona-service-card" style="text-align:center;">
                 <div class="persona-service-icon" style="margin:0 auto 16px;">✉</div>
                 <h3>Email</h3>
-                <p style="color:rgba(255,255,255,0.8);">jazeekyla@gmail.com<br>junardbendoy73@gmail.com<br>lloydlato19@gmail.com</p>
+                <p>jazeekyla@gmail.com<br>junardbendoy73@gmail.com<br>lloydlato19@gmail.com</p>
             </div>
             <div class="persona-service-card" style="text-align:center;">
                 <div class="persona-service-icon" style="margin:0 auto 16px;">☎</div>
